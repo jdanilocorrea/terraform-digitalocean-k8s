@@ -48,7 +48,7 @@ variable "node_pools" {
     {
       name  = "default-pool"
       size  = "s-1vcpu-4gb"
-      count = 3
+      count = 2
       tags  = ["worker"]
     }
   ]

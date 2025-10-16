@@ -2,7 +2,7 @@ do_project_name = "jdct-k8s-labs"
 
 name_cluster       = "doks"
 region             = "nyc3"
-kubernetes_version = "1.33.1-do.4"
+kubernetes_version = "1.33.1-do.5"
 tags               = ["k8s", "dev", "terraform", "digitalocean"]
 
 node_pools = [
