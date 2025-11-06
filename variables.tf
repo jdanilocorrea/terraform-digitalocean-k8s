@@ -55,7 +55,7 @@ variable "node_pools" {
 }
 
 variable "do_token" {
-  description = "DigitalOcean API token. NÃO comite este token - use secrets / env vars / terraform cloud"
+  description = "DigitalOcean API token. use secrets / env vars / terraform cloud"
   type        = string
   sensitive   = true
 }
